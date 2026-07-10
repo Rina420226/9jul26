@@ -43,8 +43,8 @@ support_chat_id = environ.get('SUPPORT_CHAT_ID', '-100')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rinamurmu231:rinamurmu231@badsha.xp8bc.mongodb.net")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Pramila")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Mandi')
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mn_files')
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True) # Type True For Turn On MULTIPLE DB FUNTION 
