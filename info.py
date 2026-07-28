@@ -68,8 +68,8 @@ TUTORIAL = environ.get("TUTORIAL", "https://t.me/SilentXBotz")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://t.me/SilentXBotz")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://t.me/SilentXBotz")
 
-SHORTENER_API = environ.get("SHORTENER_API", "")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "")
+SHORTENER_API = environ.get("SHORTENER_API", "6a67fbf98478013f5c8245b9")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", "diskwala.com")
 
 SHORTENER_API2 = environ.get("SHORTENER_API2", "")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", "")
